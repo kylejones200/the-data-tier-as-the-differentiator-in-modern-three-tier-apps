@@ -30,10 +30,10 @@ flowchart TD
 The presentation and application tiers are relatively interchangeable. The data tier defines whether your app is ordinary or exceptional.
 
 ### What Databricks Brings to the Data Tier
-1.  [**Delta Lake for Reliability** ACID transactions, schema enforcement, and scalable storage.]
-2.  [**Unity Catalog for Security and Governance** Fine-grained permissions, lineage, and cross-cloud governance.]
-3.  [**Streaming for Real-Time Data** Handle both batch and streaming data without separate systems.]
-4.  [**Machine Learning and AI** Train, manage, and serve models directly within the data tier.]
+1.  [Delta Lake for Reliability ACID transactions, schema enforcement, and scalable storage.]
+2.  [Unity Catalog for Security and Governance Fine-grained permissions, lineage, and cross-cloud governance.]
+3.  [Streaming for Real-Time Data Handle both batch and streaming data without separate systems.]
+4.  [Machine Learning and AI Train, manage, and serve models directly within the data tier.]
 
 This combination makes the data tier not only resilient but also intelligent.
 
@@ -97,8 +97,8 @@ print(response.json())
 This entire pipeline lives in the data tier. The application tier becomes lighter. It doesn't need custom ML infrastructure. It simply calls the Databricks serving endpoint.
 
 ### Why This Matters
-- **Security**: The data never leaves the governed Databricks environment.
-- **Resiliency**: Delta Lake ensures the churn features and models remain consistent.
-- **Scalability**: The same platform supports batch retraining, real-time inference, and ad hoc analytics.
+- Security: The data never leaves the governed Databricks environment.
+- Resiliency: Delta Lake ensures the churn features and models remain consistent.
+- Scalability: The same platform supports batch retraining, real-time inference, and ad hoc analytics.
 
 The result is a three-tier app where the differentiator --- the data tier --- is superior. The application and UI tiers areimportant. But the true edge comes from the data tier. Databricks makes that layer more than storage. It becomes the engine of intelligence that powers every other part of the stack.
