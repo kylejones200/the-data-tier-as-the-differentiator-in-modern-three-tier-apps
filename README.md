@@ -11,14 +11,7 @@ When the data tier is strong, the application is responsive and adaptive. When t
 
 Databricks makes this possible by unifying the data tier with analytics, streaming, and machine learning.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
